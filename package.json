@@ -1,0 +1,21 @@
+{
+  "name": "mogit",
+  "version": "1.0.1",
+  "preferGlobal": true,
+  "description": "A command line to count jira amount from git commits.",
+  "bin": {
+    "mogit": "./bin/mogit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table3": "^0.6.2",
+    "colors": "^1.4.0",
+    "commander": "^6.2.1",
+    "dayjs": "^1.11.5"
+  }
+}
